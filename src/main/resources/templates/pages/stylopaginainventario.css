@@ -1,0 +1,18 @@
+
+
+
+
+.agregarProducto {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin: auto;
+    border: white 3px;
+background: red;
+}
+
+
+.ocultar {
+
+    display: none;
+}

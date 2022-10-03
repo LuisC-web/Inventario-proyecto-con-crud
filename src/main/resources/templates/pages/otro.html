@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="stylopaginainventario.css">
+</head>
+<body>
+
+    <section class="col-3 justify-content-center align-items-center m-0 bg-primary">
+
+        <div class="d-flex flex-column mb-3 mt-5 p-4 bg-dark">
+            <button class="btn btn-light  mt-3  " id="AgregarP">Agregar producto</button>
+            <button class="btn btn-light  mt-3">Consultar producto</button>
+            <button class="btn btn-light  mt-3">Eliminar Producto</button>
+            <button class="btn btn-light  mt-3">Regresar a la pagina anterior</button>
+            <button class="btn btn-light  mt-3  " id="AgregarC">Agregar cliente</button>
+
+        </div>
+    </section>
+
+    <section class="col-7 mt-5  ml-5">
+        <section class="agregarProducto ocultar mt-5 p-5 bg-light bg-light" id="agregar">
+            <p> <input type="text" placeholder="id_perfume"></p>
+            <p> <input type="text" placeholder="nombre_perfume"></p>
+            <p> <input type="text" placeholder="nombre_aroma"></p>
+            <p> <input type="text" placeholder="nombre_casa"></p>
+            <p> <input type="text" placeholder="genero"></p>
+            <p> <input type="text" placeholder="presentacion_ml"></p>
+            <p> <input type="text" placeholder="cantidad"></p>
+            <button class="btn btn-primary">GUARDAR</button>
+            <button class="btn btn-warning" id="boton-cerrarAgregarProducto">CERRAR</button>
+        </section>
+        <table class="table table-striped table-dark mt-5" id="tabladeProductos">
+            <thead>
+                <tr>
+                    <th scope="col">id_perfume</th>
+                    <th scope="col">nombre_perfume</th>
+                    <th scope="col">nombre_aroma</th>
+                    <th scope="col">nombre_casa</th>
+                    <th scope="col">genero</th>
+                    <th scope="col">presentacion_ml</th>
+                    <th scope="col">cliente</th>
+                    <th scope="col">id_cliente</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>A</td>
+                
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>A</td>
+                  
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>A</td>
+                   
+                </tr>
+                <th scope="row">3</th>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>A</td>
+        
+            </tbody>
+        </table>
+
+
+    </section>
+    <script src="./paginaInventario.js"></script>
+
+</body>
+</html>
